@@ -98,3 +98,67 @@ span{
     gap: 16px;
     justify-content: center;
 }
+
+#does{
+    background-color: #FFFFFF;
+}
+
+.dose-container{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.does-head{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.does-head h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.does-head p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.does-box{
+    display: flex;
+    gap: 24px;
+    background-color: #FFFFFF;
+    margin-top: 44px;
+}
+
+.does-card{
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 44px;
+    box-shadow: 0 0 8px 0 #00000038;
+}
+
+.does-card img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.does-card h3{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 16px;
+    color: #001931;
+}
+
+.does-card p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #627382;
+    margin-bottom: 70px;
+}
