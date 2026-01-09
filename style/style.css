@@ -90,14 +90,30 @@
     padding: 115px 120px 180px 120px;
     text-align: center;
 }
+.hero-head h2{
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #469165;
+    border: none;
+    border-radius: 25px;
+    width: 226px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.loader{
+    border: 1px solid #469165;
+    border-radius: 50%;
+}
 
 .hero-head h1 {
-    margin-top: 51px;
+    margin-top: 16px;
     width: 770px;
     font-size: 72px;
     font-weight: bold;
     color: #FFFFFF;
 }
+
 
 span {
     color: #30B868;
