@@ -146,6 +146,7 @@ span{
     background-color: #F95555;
     border-radius: 50%;
     padding: 14px;
+    margin-top: 80px;
 }
 
 .does-card h3{
@@ -161,6 +162,7 @@ span{
     font-weight: 400px;
     color: #627382;
     margin-bottom: 70px;
+    margin-top: 16px;
 }
 
 #solution{
@@ -169,16 +171,18 @@ span{
 }
 
 .solution-container{
-    width: 70%;
-    max-width: 1140px;
+    width: 80%;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 60px;
+    border-radius: 5px;
 }
 
 .image{
     width: 600px;
+    background: transparent;
 }
 
 .list h6{
@@ -202,6 +206,7 @@ span{
     line-height: 20px;
     margin-top: 16px;
     width: 600px;
+    color: #627382;
 }
 
 .list ul {
@@ -224,4 +229,79 @@ span{
     margin-right: 6px;
     width: 18px;
     height: 18px;
+}
+
+#access{
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.access-container{
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 120px;
+    background-color: #62738210;
+}
+
+.contante h2{
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.contante p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#footer{
+    background-color: #001931;
+}
+
+.footer-container{
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.futter-icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom:120px ;
+}
+
+.futter-icon p{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #627382;
+}
+
+.futter-icon a i{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 16px;
+    margin-top: 16px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.copyright p{
+    font-size: 12px;
+    font-weight: 300px;
+    color: #627382;
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 30px;
 }
