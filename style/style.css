@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,11 @@
 
 
 .inder-work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.btn{
+.btn {
     padding: 13px 16px;
     font-size: 16px;
     color: #FFFFFF;
@@ -18,16 +18,19 @@
     border: none;
     background-color: #469165;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #F95555;
 }
 
 /* main css */
 
-#content{
+#content {
     margin: 0 120px;
     display: flex;
     justify-content: space-between;
@@ -35,11 +38,11 @@
     background-color: #FFFFFF;
 }
 
-.logo-navbar{
+.logo-navbar {
     margin: 16px 0;
 }
 
-.nav-head{
+.nav-head {
     margin: 16px 0;
     display: flex;
     gap: 365px;
@@ -48,24 +51,24 @@
 
 
 
-.nav-ber ul{
+.nav-ber ul {
     display: flex;
     list-style: none;
     gap: 32px;
 }
 
-.nav-ber ul a{
+.nav-ber ul a {
     text-decoration: none;
     padding: 13px 16px;
     border: none;
 }
 
-.nav-ber ul a li{
+.nav-ber ul a li {
     font-size: 16px;
     color: #000000;
 }
 
-.nav-ber a:hover{
+.nav-ber a:hover {
     padding: 13px 16px;
     font-size: 16px;
     color: #FFFFFF;
@@ -76,11 +79,11 @@
     align-items: center;
 }
 
-#hero{
+#hero {
     background: url(../images/hero-bg.png);
 }
 
-.hero-container{
+.hero-container {
     width: 70%;
     max-width: 1140px;
     margin: 0 auto;
@@ -88,7 +91,7 @@
     text-align: center;
 }
 
-.hero-head h1{
+.hero-head h1 {
     margin-top: 51px;
     width: 770px;
     font-size: 72px;
@@ -96,11 +99,11 @@
     color: #FFFFFF;
 }
 
-span{
+span {
     color: #30B868;
 }
 
-.hero-head p{
+.hero-head p {
     font-size: 18px;
     line-height: 24px;
     width: 800px;
@@ -109,71 +112,71 @@ span{
     padding: 10px;
 }
 
-.button{
+.button {
     margin-top: 30px;
     display: flex;
     gap: 16px;
     justify-content: center;
 }
 
-#does{
+#does {
     background-color: #FFFFFF;
 }
 
-.dose-container{
+.dose-container {
     width: 70%;
     max-width: 1140px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
 
-.does-head{
+.does-head {
     margin-top: 50px;
     text-align: center;
 }
 
-.does-head h2{
+.does-head h2 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
 }
 
-.does-head p{
+.does-head p {
     font-size: 16px;
     color: #627382;
     font-weight: 400;
     margin-top: 16px;
 }
 
-.does-box{
+.does-box {
     display: flex;
     gap: 24px;
     background-color: #FFFFFF;
     margin-top: 44px;
 }
 
-.does-card{
+.does-card {
     text-align: center;
     padding: 0 20px;
     margin-top: 44px;
     box-shadow: 0 0 8px 0 #00000038;
 }
 
-.does-card img{
+.does-card img {
     background-color: #F95555;
     border-radius: 50%;
     padding: 14px;
     margin-top: 80px;
 }
 
-.does-card h3{
+.does-card h3 {
     font-size: 24px;
     font-weight: 600px;
     margin-top: 16px;
     color: #001931;
 }
 
-.does-card p{
+.does-card p {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400px;
@@ -182,12 +185,12 @@ span{
     margin-top: 16px;
 }
 
-#solution{
+#solution {
     margin-top: 10px;
     background-color: #FFFFFF;
 }
 
-.solution-container{
+.solution-container {
     width: 80%;
     max-width: 1400px;
     margin: 0 auto;
@@ -197,19 +200,19 @@ span{
     border-radius: 5px;
 }
 
-.image{
+.image {
     width: 600px;
     background: transparent;
 }
 
-.list h6{
+.list h6 {
     font-size: 16px;
     font-weight: 300;
     color: #469165;
 }
 
 
-.list h4{
+.list h4 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
@@ -217,7 +220,7 @@ span{
     margin-top: 16px;
 }
 
-.list p{
+.list p {
     font-size: 16px;
     font-weight: 300px;
     line-height: 20px;
@@ -242,18 +245,18 @@ span{
     margin-bottom: 20px;
 }
 
-.list ul li img{
+.list ul li img {
     margin-right: 6px;
     width: 18px;
     height: 18px;
 }
 
-#access{
+#access {
     margin-top: 10px;
     background-color: #FFFFFF;
 }
 
-.access-container{
+.access-container {
     width: 70%;
     max-width: 1400px;
     margin: 0 auto;
@@ -262,14 +265,14 @@ span{
     background-color: #62738210;
 }
 
-.contante h2{
+.contante h2 {
     padding-top: 80px;
     font-size: 40px;
     font-weight: bold;
     color: #001931;
 }
 
-.contante p{
+.contante p {
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -278,30 +281,39 @@ span{
     margin-bottom: 24px;
 }
 
-#footer{
+.button-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .access-container .contante .button-con button {
+    align-items: center;
+} */
+#footer {
     background-color: #001931;
 }
 
-.footer-container{
+.footer-container {
     width: 70%;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.futter-icon{
+.futter-icon {
     display: flex;
     justify-content: space-between;
     padding-top: 120px;
-    padding-bottom:120px ;
+    padding-bottom: 120px;
 }
 
-.futter-icon p{
+.futter-icon p {
     font-size: 20px;
     font-weight: 300px;
     color: #627382;
 }
 
-.futter-icon a i{
+.futter-icon a i {
     height: 20px;
     width: 20px;
     text-align: center;
@@ -314,11 +326,11 @@ span{
 }
 
 
-.copyright p{
+.copyright p {
     font-size: 12px;
     font-weight: 300px;
     color: #627382;
     text-align: center;
-    margin: 30px 0 0 0 ;
+    margin: 30px 0 0 0;
     padding-bottom: 30px;
 }
