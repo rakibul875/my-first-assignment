@@ -21,6 +21,10 @@
     align-items: center;
 }
 
+.btn:hover{
+    background-color: #F95555;
+}
+
 /* main css */
 
 #content{
@@ -52,11 +56,24 @@
 
 .nav-ber ul a{
     text-decoration: none;
+    padding: 13px 16px;
+    border: none;
 }
 
 .nav-ber ul a li{
     font-size: 16px;
     color: #000000;
+}
+
+.nav-ber a:hover{
+    padding: 13px 16px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 300;
+    border: none;
+    background-color: #469165;
+    border-radius: 5px;
+    align-items: center;
 }
 
 #hero{
@@ -302,6 +319,6 @@ span{
     font-weight: 300px;
     color: #627382;
     text-align: center;
-    margin: 30px;
+    margin: 30px 0 0 0 ;
     padding-bottom: 30px;
 }
